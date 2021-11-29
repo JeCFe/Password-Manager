@@ -39,6 +39,7 @@ namespace Password_Cracker_Generator
 
                 }
             Console.WriteLine("Press any key to continue");
+            getInputThread.Join();
         }
         static void Generator()
         {
@@ -68,6 +69,7 @@ namespace Password_Cracker_Generator
                     break;
                 case "2":
                     Generator();
+
                     break;
                 default:
                     break;
