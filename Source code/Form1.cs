@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ Password Manager 
+ 2021 - Jessica Clara Fealy
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -222,7 +227,7 @@ namespace Password_Manager
                 GenerateKeyandIV(txtBxMasterPassword.Text, AD.accountSalt, keySizeBits, blockSizeBits, ref key, ref IV);
                 string password = Decryptor(AD.accountEncryptedPassword, key, IV);
 
-                MessageBox.Show("Account Details!\nAccount Name: " + AD.accountName + "\nAccount Email: " + AD.accountEmail + "\nAccount Password: " + password + "\nEncrypted Value: " + AD.accountEncryptedPassword, "Account Details!");
+                MessageBox.Show("Account Details!\nAccount Name: " + AD.accountName + "\nAccount Email: " + AD.accountEmail + "\nAccount Password: " + password, "Account Details!");
             }
             catch { }
         }
