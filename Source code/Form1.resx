@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnShowAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 233</value>
+  </data>
+  <data name="btnShowAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnShowAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnShowAccount.Text" xml:space="preserve">
+    <value>Show Selected</value>
+  </data>
+  <data name="&gt;&gt;btnShowAccount.Name" xml:space="preserve">
+    <value>btnShowAccount</value>
+  </data>
+  <data name="&gt;&gt;btnShowAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnShowAccount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnShowAccount.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btnDeleteSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 207</value>
+  </data>
+  <data name="btnDeleteSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="btnDeleteSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnDeleteSelected.Text" xml:space="preserve">
+    <value>Delete Selected</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteSelected.Name" xml:space="preserve">
+    <value>btnDeleteSelected</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteSelected.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteSelected.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="txtBxMasterPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 35</value>
+  </data>
+  <data name="txtBxMasterPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txtBxMasterPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 20</value>
+  </data>
+  <data name="txtBxMasterPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtBxMasterPassword.Name" xml:space="preserve">
+    <value>txtBxMasterPassword</value>
+  </data>
+  <data name="&gt;&gt;txtBxMasterPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBxMasterPassword.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBxMasterPassword.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtBxAccountName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 37</value>
+  </data>
+  <data name="txtBxAccountName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="txtBxAccountName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountName.Name" xml:space="preserve">
+    <value>txtBxAccountName</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountName.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtBxAccountEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 73</value>
+  </data>
+  <data name="txtBxAccountEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="txtBxAccountEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountEmail.Name" xml:space="preserve">
+    <value>txtBxAccountEmail</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountEmail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountEmail.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtBxAccountPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 109</value>
+  </data>
+  <data name="txtBxAccountPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="txtBxAccountPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountPassword.Name" xml:space="preserve">
+    <value>txtBxAccountPassword</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountPassword.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBxAccountPassword.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblAccName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAccName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 22</value>
+  </data>
+  <data name="lblAccName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 12</value>
+  </data>
+  <data name="lblAccName.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblAccName.Text" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="&gt;&gt;lblAccName.Name" xml:space="preserve">
+    <value>lblAccName</value>
+  </data>
+  <data name="&gt;&gt;lblAccName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAccName.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblAccountEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAccountEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 58</value>
+  </data>
+  <data name="lblAccountEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 12</value>
+  </data>
+  <data name="lblAccountEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblAccountEmail.Text" xml:space="preserve">
+    <value>Account Email</value>
+  </data>
+  <data name="&gt;&gt;lblAccountEmail.Name" xml:space="preserve">
+    <value>lblAccountEmail</value>
+  </data>
+  <data name="&gt;&gt;lblAccountEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccountEmail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAccountEmail.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblAccountPass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAccountPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 94</value>
+  </data>
+  <data name="lblAccountPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 12</value>
+  </data>
+  <data name="lblAccountPass.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblAccountPass.Text" xml:space="preserve">
+    <value>Account Password</value>
+  </data>
+  <data name="&gt;&gt;lblAccountPass.Name" xml:space="preserve">
+    <value>lblAccountPass</value>
+  </data>
+  <data name="&gt;&gt;lblAccountPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccountPass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAccountPass.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnAddAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 133</value>
+  </data>
+  <data name="btnAddAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 21</value>
+  </data>
+  <data name="btnAddAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnAddAcc.Text" xml:space="preserve">
+    <value>Add Account</value>
+  </data>
+  <data name="&gt;&gt;btnAddAcc.Name" xml:space="preserve">
+    <value>btnAddAcc</value>
+  </data>
+  <data name="&gt;&gt;btnAddAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddAcc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAddAcc.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 180</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 21</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save File</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ltBxAccounts.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ltBxAccounts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 59</value>
+  </data>
+  <data name="ltBxAccounts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 196</value>
+  </data>
+  <data name="ltBxAccounts.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ltBxAccounts.Name" xml:space="preserve">
+    <value>ltBxAccounts</value>
+  </data>
+  <data name="&gt;&gt;ltBxAccounts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ltBxAccounts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ltBxAccounts.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ckBxLowChars.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ckBxLowChars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 61</value>
+  </data>
+  <data name="ckBxLowChars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="ckBxLowChars.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="ckBxLowChars.Text" xml:space="preserve">
+    <value>Lowercase</value>
+  </data>
+  <data name="&gt;&gt;ckBxLowChars.Name" xml:space="preserve">
+    <value>ckBxLowChars</value>
+  </data>
+  <data name="&gt;&gt;ckBxLowChars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ckBxLowChars.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ckBxLowChars.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ckBxNumbers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ckBxNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 63</value>
+  </data>
+  <data name="ckBxNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="ckBxNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ckBxNumbers.Text" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="&gt;&gt;ckBxNumbers.Name" xml:space="preserve">
+    <value>ckBxNumbers</value>
+  </data>
+  <data name="&gt;&gt;ckBxNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ckBxNumbers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ckBxNumbers.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ckBxSpecial.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ckBxSpecial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 40</value>
+  </data>
+  <data name="ckBxSpecial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="ckBxSpecial.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ckBxSpecial.Text" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="&gt;&gt;ckBxSpecial.Name" xml:space="preserve">
+    <value>ckBxSpecial</value>
+  </data>
+  <data name="&gt;&gt;ckBxSpecial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ckBxSpecial.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ckBxSpecial.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblMaster.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 20</value>
+  </data>
+  <data name="lblMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 12</value>
+  </data>
+  <data name="lblMaster.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblMaster.Text" xml:space="preserve">
+    <value>Master Password</value>
+  </data>
+  <data name="&gt;&gt;lblMaster.Name" xml:space="preserve">
+    <value>lblMaster</value>
+  </data>
+  <data name="&gt;&gt;lblMaster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMaster.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMaster.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="numPasswordLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 87</value>
+  </data>
+  <data name="numPasswordLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 20</value>
+  </data>
+  <data name="numPasswordLength.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;numPasswordLength.Name" xml:space="preserve">
+    <value>numPasswordLength</value>
+  </data>
+  <data name="&gt;&gt;numPasswordLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numPasswordLength.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numPasswordLength.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ckBxUpperChar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ckBxUpperChar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 40</value>
+  </data>
+  <data name="ckBxUpperChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 16</value>
+  </data>
+  <data name="ckBxUpperChar.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="ckBxUpperChar.Text" xml:space="preserve">
+    <value>Uppercase</value>
+  </data>
+  <data name="&gt;&gt;ckBxUpperChar.Name" xml:space="preserve">
+    <value>ckBxUpperChar</value>
+  </data>
+  <data name="&gt;&gt;ckBxUpperChar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ckBxUpperChar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ckBxUpperChar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnGenerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 111</value>
+  </data>
+  <data name="btnGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 21</value>
+  </data>
+  <data name="btnGenerate.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnGenerate.Text" xml:space="preserve">
+    <value>Generate Password</value>
+  </data>
+  <data name="&gt;&gt;btnGenerate.Name" xml:space="preserve">
+    <value>btnGenerate</value>
+  </data>
+  <data name="&gt;&gt;btnGenerate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGenerate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGenerate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 143</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtNewPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 137</value>
+  </data>
+  <data name="txtNewPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 20</value>
+  </data>
+  <data name="txtNewPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="txtNewPassword.Text" xml:space="preserve">
+    <value>Awaiting New Password</value>
+  </data>
+  <data name="&gt;&gt;txtNewPassword.Name" xml:space="preserve">
+    <value>txtNewPassword</value>
+  </data>
+  <data name="&gt;&gt;txtNewPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNewPassword.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtNewPassword.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-GB</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 12</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>623, 263</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 8.25pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAzAMwFMwDMBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        /wFBKttlQyzd5EMs3eNCK91jAAD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwk
+        2hVCLdy7RC7d/0Qu3f9ELt3/RC7d/0Mt3bk/JuUUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEr
+        2iNCLN3dRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qy3d3EMt4SIAAAAAAAAAAAAAAAAAAAAAAAAAAD8k
+        2hxCLdzhRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdzgQiXZGwAAAAAAAAAAAAAAACoq
+        1AZDLd3LRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0It3MoqKtQGAAAAAAAA
+        AABBLNyERC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/QizbgwAA
+        AAA4JdkbQy3c90Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt
+        3Pc4JdkbQizaf0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/QizcfkIt3cZELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0It3cZCLdztRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELd3sQy3c30Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/Qy3d3EIr3ZFELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Es3Y8/JtgUQizc3kQu3f9ELt3/RC7d/0Qu3f9ELt3/QyzcyEMs
+        3MlELt3/RC7d/0Qu3f9ELt3/RC7d/0Is3N1DKNYTAAAAAD0o4BlCLd2oQy3d+UQu3f9DLN30Qizcljon
+        6w02JNoOQSvdl0Ms3fRELt3/Qy3d+UIs3Kg9KOAZAAAAAAAAAAAAAAAAAAAAADgc4gk9I9sdKirUBgAA
+        AAAAAAAAAAAAAAAAAAAqKtQGPSPbHTgc4gkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOSLcFjwk2hUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQSneH0Ms3JxDLd34Qy3c90Is3Zk9K9sdAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKir/BkEr24BDLdz3RC7d/0Qu3f9ELt3/RC7d/0Mt
+        3PZBLd58MzP/BQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIq4CpDLdzQRC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9DLN3NPyzfKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAK9tXQy3d80Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLd3yQCvdUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQSvcfEMt3f1ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdz9QircdwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIr3o1DLdz+RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/QizdigAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBK92IRC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/QSzchQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQivccEMt
+        3P5ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9DLdz+QSzebQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEMq
+        20hDLdz8RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELd37QSveRgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABCJdkbQy3d60Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdzrOifhGgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAEIs3bdELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLN22AAAAAAAA
+        AAAAAAAAAAAAAAAAAABBKt1aRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt
+        3P5CK9xYAAAAAAAAAAAAAAAAJCTaB0Mt3OBELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Mt3N8kJNoHAAAAAAAAAABBKt5lRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Eq3mUAAAAAAAAAAEIs29JELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qy3c0QAAAAA/KNwsQy3c/kQu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdz+PyjcLEIs3XNELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9CLN1zQi3dqEQu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0It
+        3KlCLN3TRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/Qy3d00Ms3eNELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9DLd3iQy3c10Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3NBCLd2pRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qi3cpEEr211ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DK95XPx/fCEMs3ONELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qyzc4Coq1AYAAAAAQizcUUMt
+        3P5ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdztQy3d7UQu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3P5CK91NAAAAAAAA
+        AAAAAAAAQizcfkMt3P5ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qy3c9T8r
+        30BAKdxDQy3c9kQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdz+QivbewAA
+        AAAAAAAAAAAAAAAAAAAAAAAAQizcZ0Mt3fRELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt
+        3N5AKd43AAAAAAAAAAA+LNs5Qy3c4EQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qyzc9EEq
+        3mUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOyrdHkIr3ZJCLNvpRC7d/0Qu3f9ELt3/Qy3c/kMt
+        3NdDLN1yMxnlCgAAAAAAAAAAAAAAAAAAAAAuF9ALQizdc0Mt3ddDLdz+RC7d/0Qu3f9ELt3/Qy3c6EIr
+        3JI7KtQeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfwI/KtskPyrdPEMo
+        2zk9KNYZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0o1hlDKNs5PyrdPD8q
+        2yQAAH8CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8CQCvcO0Ip3T0AAH8CAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCrUEkAp3ENCLNu9Qy3d+kQt3ftCLdy5QizdRTgq
+        1BIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAzAVBKt5OQizerEMt3fZELt3/RC7d/0Qu
+        3f9ELt3/Qyzc9kIs3a1ALN1LJCTaBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANRrkE0Er3KNDLd3xQy3c/kQu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3P5CLdzxQS3cozwt4REAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAzAVBKdxKQyzd2EQu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Is3d1BK95GKirUBgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMyLdD0Ir
+        3XpDLd3mQy3c/kQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt
+        3P5CLdzlQSrcfTYk2g4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AABBKd4fQizduEMt3PpELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/Qyzc+kMs3L4/JNocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAEEn1ydCLNzBQy3c/kQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3P5CK9y7QirgKgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAQSnePkIs3MpDLdz+RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdz+Qi3cyj8n
+        20AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBKNpGQyzd3kMt3P5ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Ms3eNAKdxDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8o3CxDLd3VRC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9CLN3TPyzcNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCzdLkIs3MpDLdz+RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdz+Qi3czEEr3i8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/KtskQy3czEMt
+        3P5ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qy3c/kIs
+        3dQ8JdkiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADon
+        1w1CLN2iQy3c/UQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Mt3P1CLNyhPB7SEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAEEr23RDLdz2RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdz2QivbewAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAPivaTUIs3fVELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qyzc9j4o3FEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8JeEiQy3d1EQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Is
+        3N89JuAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoq1AZCLN2LQy3d+UQu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Mt3PtCLNuKOBziCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIq2ipDLdztRC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3P5CLdzsPyfhNAAAAAAAAAAAAAAAAAAAAAAAAAAAPwC/BEIs
+        3a1ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/QizcsT8AvwQAAAAAAAAAAAAA
+        AAAAAAAAQCfbR0Mt3PtELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qy3c+0Ao
+        3UsAAAAAAAAAAAAAAAA/H98IQyzdvUQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Ir3cs/H98IAAAAAAAAAABAKdxDQy3c6EQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3O9BKuBCAAAAAAAAqgNDK92BQy3c+0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3PxDK92BPwD/BDYk2g5DLdy6Qy3c/kQu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3P5DLd66OSLcFj8k
+        2hxDLdzoRC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9DLdzoPivZKUEp2T5DLdz9RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9DLdz9PyvaTEEs3XhELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/QivbgkIt3KlELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/QizcsEIt3cZELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qi3dy0It
+        3NBELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RCzdzkIs3MFELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/Qi3bu0Mr3ZdELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/QizclUEp3lZDLdz+RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdz+QSrdWj0j2x1CLN3pRC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9CLNzlQyjdJjMZ
+        5QpCLN2oQy3c/kQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt
+        3P5DK9yjNiTaDgAAAABAK9pTQy3c7UQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Mt3fJBKt5OAAAAAAAAAABIJNoHQizbpkMt3P5ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qizc9EMt
+        3fNELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/Qy3c/kMs3a0qANQGAAAAAAAAAAAAAAAAOyrdHkMs3MJDLdz+RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9DLd30QSzcfUEs2nhDLdz1RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9DLdz+QizbxDsq3R4AAAAAAAAAAAAAAAAAAAAAAAAAAEEp
+        3h9CLNzIQy3c/kQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Mt3fpBK9uILhfQCzgcxglCLN2KQy3c+UQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3P5CLdzGPCjWJgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA/KNwsQizbvUMt3fhELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9DLdz+Qy3d60Mr3ow4HOIJAAAAAAAAAAAzGcwKQivehkMt3OtDLdz+RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/Qy3d+EIs3MNBKdsrAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOSLcFkEs3XhCLdzWQy3d/EQu3f9ELt3/RC7d/0Qu
+        3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3fhCLdyzQizbUAAAfwIAAAAAAAAAAAAAAAAAAAAAAAD/AkIr
+        3U1CLdy0Qy3c9kQu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Qu3f9ELt3/RC7d/0Mt3P1DLdzVQivdezki
+        3BYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wI9KNYZQSnaYkEs
+        3MJDLNz6RC7d/0Qu3f9ELt3/RC7d/0Mt3P5CLdztQSvbpD4o3zk6J9cNAAAAAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA6J9cNQCneN0Ms3Z9CLd3tQy3c/kQu3f9ELt3/RC7d/0Qu3f9DLd35QizdxUEq
+        3GY9KNYZAACqAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA/Kt8YPyndREEr3l1BKttlQivfWEIl3TYzGeUKAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuF9ALPyfcNEMp3ldBKttlQSvbXkEr
+        3kY/Kt8YAAD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Password Manager</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
